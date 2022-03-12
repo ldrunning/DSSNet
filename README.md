@@ -27,6 +27,7 @@ This repository is a PyTorch implementation for DSSNet. The code is easy to use 
 4. Train:
 
    - Download related datasets and put them under folder specified in config or modify the specified paths.
+   - git clone https://github.com/ldrunning/data
 
       python  train_dss.py
 	  
