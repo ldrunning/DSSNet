@@ -56,7 +56,7 @@ class Body(nn.Module):
     def __init__(self):
         super(Body, self).__init__()
         w_residual = [ResBlock(42, 6, 1.0, 0.75)
-                      for _ in range(12)]
+                      for _ in range(10)]
         self.module = nn.Sequential(*w_residual)
 
     def forward(self, x):
